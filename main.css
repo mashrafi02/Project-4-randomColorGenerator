@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+}
+
+
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main h1{
+    background-color: rgb(62, 62, 62);
+    font-size: 34px;
+    color: #fff;
+    padding: 14px;
+    border-radius: 14px;
+    margin-bottom: 14px;
+}
+
+main button{
+    display: block;
+    font-size: 24px;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    background: #b4b3b3;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+main button:hover{
+    background: #9b9b9b;
+}
+
